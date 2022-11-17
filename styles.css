@@ -1,0 +1,144 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 0px;
+}
+
+.navbar-header {
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* NAVIGATION BAR */
+.navbar .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 80px;
+}
+
+.navbar .container ul {
+	display: flex;
+}
+
+.navbar .container li {
+	margin-left: 20px;
+}
+
+/* HEADER */
+.header .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 600px;
+}
+
+.header-right img{
+	display: block;
+	margin-left: auto;
+}
+
+.header-left {
+	flex: 2;
+}
+
+.header-right {
+	flex: 3;
+}
+
+.header-left h1, p {
+	margin-baottom: 10px;
+}
+
+/* BOXES SECTION */
+.boxes {
+	padding: 50px;
+}
+
+.boxes h2 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.boxes .container {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1000px;
+	gap: 20px;
+}
+
+.box {
+	flex: 1;
+	text-align: center;
+}
+
+.box img {
+	width: 100%;
+}
+
+/* QUOTE SECTION */
+.quote {
+	background-color: #111111;
+}
+
+.quote .container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	max-width: 800px;
+	min-height: 450px;
+}
+
+.quote .container p {
+	text-align: right;
+	display: block;
+}
+
+/* SIGNUP BOX SECTION */
+.signup .container {
+	min-height: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.signup-box {
+	background-color: #111111;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 100px;
+	padding: 0 100px;
+}
+
+/* FOOTER */
+.footer {
+	background-color: #111111;
+}
+
+.footer .container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80px;
+}
