@@ -44,6 +44,18 @@ ul {
 	margin-left: 20px;
 }
 
+@media (max-width: 700px) {
+	.navbar .container {
+		flex-direction: column;
+		margin-bottom: 50px;
+		padding: 20px 0px;
+	}
+
+	.navbar .container ul {
+		margin-top: 20px;
+	}
+}
+
 /* HEADER */
 .header .container {
 	display: flex;
@@ -66,7 +78,19 @@ ul {
 }
 
 .header-left h1, p {
-	margin-baottom: 10px;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+	.header .container {
+		flex-direction: column;
+		text-align: center;
+		padding: 20px;
+	}
+
+	.header-right img {
+		width: 100%;
+	}
 }
 
 /* BOXES SECTION */
@@ -95,12 +119,18 @@ ul {
 	width: 100%;
 }
 
+@media (max-width: 700px) {
+	.boxes .container {
+		flex-direction: column;
+	}
+}
+
 /* QUOTE SECTION */
 .quote {
 	background-color: #111111;
 }
 
-.quote .container{
+.quote .container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -111,6 +141,19 @@ ul {
 .quote .container p {
 	text-align: right;
 	display: block;
+}
+
+@media (max-width: 700px) {
+	.quote .container {
+		padding: 30px;
+		text-align: center;
+	}
+
+	.quote .container p {
+		text-align: center;
+		display: block;
+		margin-top: 30px;
+	}
 }
 
 /* SIGNUP BOX SECTION */
@@ -131,6 +174,13 @@ ul {
 	padding: 0 100px;
 }
 
+@media (max-width: 700px) {
+	.signup-box {
+		flex-direction: column;
+		padding: 20px;
+		text-align: center;
+	}
+}
 /* FOOTER */
 .footer {
 	background-color: #111111;
